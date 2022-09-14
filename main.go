@@ -53,12 +53,12 @@ func routeWebPage(c echo.Context) error {
 	if err != nil {
 		return err
 	}
-	for key := range resp.Header {
-		val := resp.Header[key]
-		if len(val) > 0 {
-			c.Response().Header().Add(key, val[0])
-		}
-	}
+	//for key := range resp.Header {
+	//	val := resp.Header[key]
+	//	if len(val) > 0 {
+	//		c.Response().Header().Add(key, val[0])
+	//	}
+	//}
 	return c.JSON(http.StatusOK, string(body))
 }
 
