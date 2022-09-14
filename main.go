@@ -14,7 +14,7 @@ func main() {
 	e := echo.New()
 	e.Use(middleware.CORS())
 	e.POST("/api", routeWebPage)
-	e.Static("/", "api")
+	e.Static("/", "web")
 	port := os.Getenv("PORT")
 	if len(port) == 0 {
 		log.Println("Port env value not found, setting to defult")
