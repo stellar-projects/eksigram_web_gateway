@@ -6,6 +6,7 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"os"
 	"strings"
 )
 
@@ -13,7 +14,12 @@ func main() {
 	e := echo.New()
 	e.Use(middleware.CORS())
 	e.POST("/", routeWebPage)
-	e.Logger.Fatal(e.Start(strings.Join([]string{":", "9090"}, "")))
+	port := os.Getenv("PORT")
+	if len(port) == 0 {
+		log.Println("Port env value not found, setting to defult")
+		port = "5050"
+	}
+	e.Logger.Fatal(e.Start(strings.Join([]string{":", port}, "")))
 }
 
 func routeWebPage(c echo.Context) error {
