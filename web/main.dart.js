@@ -40175,7 +40175,7 @@ $0(){},
 $S:0}
 A.ahZ.prototype={
 $1(a){var s=null
-return new A.px(B.x2,B.So,A.a([new A.Lm(new A.ahY(a),s,s,s,s,B.E,s,!1,s,B.Sm,s)],t.E),s)},
+return new A.px(B.x2,B.Sp,A.a([new A.Lm(new A.ahY(a),s,s,s,s,B.E,s,!1,s,B.Sm,s)],t.E),s)},
 $S:192}
 A.ahY.prototype={
 $0(){A.xP(this.a,!1).ho()},
@@ -76718,10 +76718,10 @@ B.u6=new A.t(0,-1)
 B.K8=new A.t(1,-1)
 B.e0=A.a(s([B.d_,B.K7,B.el,B.Kc,B.u7,B.Kd,B.u6,B.K8]),t.yv)
 B.di=new A.jz(2,"center")
-B.Sp=new A.jx("Something went wrong. Tap to try again.",null,null,B.di,null,null)
+B.So=new A.jx("Something went wrong. Tap to try again.",null,null,B.di,null,null)
 B.Nc=new A.hF(null,4,null,null)
 B.E1=new A.kj(B.nl,16,null,null)
-B.FG=A.a(s([B.Sp,B.Nc,B.E1]),t.E)
+B.FG=A.a(s([B.So,B.Nc,B.E1]),t.E)
 B.S=new A.kK(0,"rtl")
 B.q=new A.kK(1,"ltr")
 B.FJ=A.a(s([B.S,B.q]),A.af("w<kK>"))
@@ -78619,8 +78619,8 @@ B.Sl=new A.A9(1,"longestLine")
 B.Sm=new A.jx("e bundan bana ne?",null,null,null,null,null)
 B.QI=new A.o(!0,B.i,null,null,null,null,16,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Sn=new A.jx("Try Again",null,B.QI,null,null,null)
-B.So=new A.jx("Bu uygulama; kar amac\u0131 g\xfctmeden, sadece e\u011fitim amac\u0131 ile haz\u0131rlanm\u0131\u015ft\u0131r. uygulaman\u0131n kaynak koduna 'https://github.com/dreampowder/eksigram_flutter' adresi \xfczerinden eri\u015febilirsiniz.",null,null,null,null,null)
 B.x2=new A.jx("eksigram",null,null,null,null,null)
+B.Sp=new A.jx("Bu uygulama; kar amac\u0131 g\xfctmeden, sadece e\u011fitim amac\u0131 ile haz\u0131rlanm\u0131\u015ft\u0131r. uygulaman\u0131n kaynak koduna 'https://github.com/stellar-projects/eksigram_flutter' adresi \xfczerinden eri\u015febilirsiniz.",null,null,null,null,null)
 B.V9=new A.Lw(0,"system")
 B.Sq=new A.Ab(null)
 B.aX=new A.oM(0,"clamp")
