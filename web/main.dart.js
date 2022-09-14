@@ -39945,7 +39945,7 @@ A.rq.prototype={
 PX(a){var s,r=this.a
 r===$&&A.c()
 s=t.N
-return r.r6("/",null,A.a0(["url",a],s,s),new A.a67(),t.C)},
+return r.r6("",null,A.a0(["url",a],s,s),new A.a67(),t.C)},
 wA(a,b){var s,r=this.a
 r===$&&A.c()
 s=t.N
