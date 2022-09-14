@@ -13,7 +13,7 @@ func main() {
 	e := echo.New()
 	e.Use(middleware.CORS())
 	e.POST("/", routeWebPage)
-	e.Logger.Fatal(e.Start(strings.Join([]string{":", "80"}, "")))
+	e.Logger.Fatal(e.Start(strings.Join([]string{":", "9090"}, "")))
 }
 
 func routeWebPage(c echo.Context) error {
